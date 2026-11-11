@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap');
+body {
+    .painel {
+    gap: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    box-shadow:
+    0 0 20px rgba(138, 43, 226, 0.2),
+    inset 0 0 15px rgba(138, 43, 226, 0.12);
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 350px;
+    margin: 80px auto;
+    padding: 30px;
+    border: 1px solid rgba(138, 43, 226, 0.6);
+    border-radius: 5px;
+}
+    text-align: center;
+
+    background-color: black;
+
+    background-image:
+        linear-gradient(rgba(138, 43, 226, 0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(138, 43, 226, 0.08) 1px, transparent 1px),
+        radial-gradient(circle at top, #240046, #000000 70%);
+
+    background-size:
+        40px 40px,
+        40px 40px,
+        100% 100%;
+
+    background-repeat:
+        repeat,
+        repeat,
+        no-repeat;
+
+    background-attachment: fixed;
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 50px;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 0 0 20px blueviolet;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+}
+
+a {
+    box-shadow: 0 0 5px blueviolet;
+    border: 1px solid #c6a0ff;
+    display: block;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    width: 200px;
+    margin: 15px auto;
+    border-radius: 10px;
+    transition: 0.5s;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 3px;
+}
+
+a:hover {
+    background-color: purple;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px blueviolet;
+}
